@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <h1 style="text-align:center;">
+      회원 가입 페이지
+    </h1>
+  </head>
+
+  <br>
+
+  <body>
+    <form>
+      <p>
+        <label for="account">아 이 디</label>&emsp;&ensp;
+        <input type="text" id="account" name="account"><br>
+        <label for="email_address">이 메 일 </label>&ensp;&ensp;
+        <input type="email" id="email_address" name="email_address"><br>
+        <label for="pw">비밀번호</label>&ensp;&ensp;
+        <input type="password" id="pw" name="pw"><br>
+        <label for="pw_verify">비번확인</label>&ensp;&ensp;
+        <input type="password" id="pw_verify" name="pw_verify">
+      </p>
+      
+      <p>
+        <label for="mail_recieve">메일수신</label>&ensp;
+        <input type="radio" name="mail_recieve" unchecked>동의&ensp;
+        <input type="radio" name="mail_recieve" unchecked>동의 안함
+      </p>
+      
+      <p>
+        <label for="interested">관심분야</label>&ensp;
+        <input type="checkbox" name="interested" unchecked>&ensp;AI<br>&emsp;&emsp;&emsp;&emsp;&ensp;
+        <input type="checkbox" name="interested" unchecked>&ensp;IOT<br>&emsp;&emsp;&emsp;&emsp;&ensp;
+        <input type="checkbox" name="interested" unchecked>&ensp;BigData<br>&emsp;&emsp;&emsp;&emsp;&ensp;
+        <input type="checkbox" name="interested" unchecked>&ensp;Cloud<br>
+      </p>
+
+      <p>
+
+      </p>
+      <label for="roles">역할</label>&emsp;&emsp;&ensp;
+      <select id = "roles" name="roles">
+        <option value="Back-End Developer">Back-End Developer</option>
+        <option value="Frond-End Developer">Front-End Developer</option>
+        <option value="Full-Stack Developer">Full-Stack Developer</option>
+        <option value="DevOps Engineer">DevOps Engineer</option>
+        <option value="Analysis">Analysis</option>
+        <option value="Architect">Architect</option>
+      </select>
+      <p>
+        &emsp;&emsp;&emsp;&emsp;&ensp;
+        <input type="submit" value=" 가입 ">&emsp;&ensp;
+        <input type="reset" value="  초기화  ">
+      </p>
+      
+    </form>
+
+  </body>
+</html>
